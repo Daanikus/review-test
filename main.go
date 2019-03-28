@@ -11,3 +11,7 @@ func main() {
 func Export() {
 	fmt.Println("Exported")
 }
+
+func Another() {
+	fmt.Println("Another")
+}
