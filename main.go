@@ -9,7 +9,7 @@ func main() {
 	Export(msg)
 	sl := []int{2, 3, 4, 5, 6, 7}
 	_ = GetSubSlice(1, sl)
-	Do()
+	_ = Do()
 }
 
 func Export(msg string) error {
