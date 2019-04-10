@@ -1,3 +1,10 @@
+funcs:
+  - name: isOneAfter
+    type: asserter
+    body: |
+      function(first, second) {
+        return first == (second - 1)
+      }
 tenets:
   - import: codelingo/go
   - import: codelingo/effective-go

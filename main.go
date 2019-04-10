@@ -18,8 +18,8 @@ func Export(msg string) error {
 	return nil
 }
 
-func GetSubSlice(start int, slice []int) []int {
-	return slice[start:len(slice)]
+func GetSubSlice(start int, sl []int) []int {
+	return sl[start:len(sl)]
 }
 
 func Do() error {
